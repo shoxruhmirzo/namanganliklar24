@@ -1,7 +1,23 @@
-body {
-    font-size: 15px;
+body{
+    front-family
+}.site-header{
+    background-color: #f6f6f9;
+
 }
-.site-footer {
-    background-color: #295093;
-    color: #fff;
+.page-preloader{
+    display: flex;
+    flex-direction: center;
+}
+.covid-block{
+    background-color: f6f6f9;
+    display: flex;
+    flex-direction: center;
+}
+.covid-block1{
+    background-color: aqua;
+}
+.important-news{
+    display: flex;
+    justify-content: space-between;
+}
 }
