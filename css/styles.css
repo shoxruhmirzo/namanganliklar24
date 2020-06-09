@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .site-header {
+    padding-top: 40px;
+    padding-bottom: 23px;
+    border-top: 4px solid #295093;
+    background-color: #F6F6F9;
+  } 
+  .site-header-top {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    margin-right: 17px;
+  }
+  .exchange-rates {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-right: auto;
+    list-style-type: none;
+  }
+  .exchange-rates li {
+    margin-right: 25px;
+  }
+  .site-header-actions {
+    display: flex;
+  }
+  .search-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 22px;
+  }
+  .language-button {
+    display: flex;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 22px;
+  }
+  .language-text {
+    font-weight: bold;
+  }
+  .telegram-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    color: #fff;
+    text-decoration: none;
+  }
+  .telegram-link-image {
+    margin-right: 7px;
+  }
