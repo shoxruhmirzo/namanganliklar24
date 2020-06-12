@@ -1,52 +1,61 @@
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
-    padding: 0;
-  }
-  .site-header {
+    font-family: "Rubik", "Arial", sans-serif;
+}
+.container{
+    width: 1240px;
+    padding:0 20px;
+    margin: 0 auto;
+}
+.site-header {
     padding-top: 40px;
     padding-bottom: 23px;
     border-top: 4px solid #295093;
     background-color: #F6F6F9;
-  } 
-  .site-header-top {
+} 
+.site-header-top {
     display: flex;
     align-items: center;
-  }
-  .logo {
+    margin-bottom: 40px;
+}
+.logo {
     margin-right: 17px;
-  }
-  .exchange-rates {
+}
+.exchange-rates {
     display: flex;
     padding: 0;
     margin: 0;
     margin-right: auto;
     list-style-type: none;
-  }
-  .exchange-rates li {
+}
+.exchange-rates li {
     margin-right: 25px;
-  }
-  .site-header-actions {
+}
+.site-header-actions {
     display: flex;
-  }
-  .search-button {
+}
+.search-button {
     padding: 10px;
     border: none;
     border-radius: 5px;
     background-color: #fff;
     margin-right: 22px;
-  }
-  .language-button {
+}
+.language-button {
     display: flex;
     padding: 10px;
     border: none;
     border-radius: 5px;
     background-color: #fff;
     margin-right: 22px;
-  }
-  .language-text {
+}
+.language-text {
     font-weight: bold;
-  }
-  .telegram-link {
+}
+.telegram-link {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -54,7 +63,114 @@ body {
     background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
     color: #fff;
     text-decoration: none;
-  }
-  .telegram-link-image {
+}
+.telegram-link-image {
     margin-right: 7px;
+}
+.site-nav{
+    /* padding-left: 120px;
+    padding-right: 120;  */
+    padding: 22px 25px 22px 25px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+.site-nav-list{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.site-nav-list li {
+    margin-right: 27px;
+}
+.site-nav-list li:last-child {
+    margin-right: 0;
+}
+.nrg-banner{
+    /* margin-left: 120px;
+    margin-right: 120px; */
+}
+.covid-block{
+    /* flex-wrap: wrap; */
+    width: 1200px;
+    height: 133px;
+    margin-top: 22px;
+    background: #F6F6F9;
+    border-radius: 5px;
+    display: flex;
+    
+}
+.covid-info-uzb{
+    justify-content: center;
+    
+}
+.visuallyhidden {
+    position: absolute;
+    
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.important-news{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.notification{
+    /* padding-left: 37px; */
+    /* justify-content: center;
+    display: flex; */
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color:rgba(239, 186, 84, 0.18);
+    width: 1200px;
+    /* height: 91px; */
+}
+.notify{
+    margin-left: auto;
+    padding: 8px 15px 8px 15px;
+    /* width: 264px; */
+    /* height: 42px; */
+    background-color:#FE5C28;
+}
+.footer{
+    
+    display: flex;
+    justify-content: center;
+    
+    width: 1200px;
+    height: 214px;
+    background-color:#F6F6F9;
+}
+.footer-logo{
+    padding-left: 119px;
+    color: #FFF;
+    
+    background-image: #133C82;
+    border-radius: 5px;
+}
+.site-footer {
+    padding: 18px 0;
+    background-color: #295093;
+  }
+  .site-footer-tg {
+    display: flex;
+  }
+  .site-footer-logo {
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #133C82;
   }
